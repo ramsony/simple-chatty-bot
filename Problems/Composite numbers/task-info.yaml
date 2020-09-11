@@ -1,0 +1,38 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static boolean isComposite(long number) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            final long number = scanner.nextLong();
+            System.out.println(isComposite(number));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2729
+status: Failed
+feedback:
+  message: |
+    Failed test #2 of 20. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    2
+    Correct output:
+    false
+
+    Your code output:
+    true
+  time: Thu, 10 Sep 2020 13:17:56 UTC
+record: -1
